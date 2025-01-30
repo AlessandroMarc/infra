@@ -5,3 +5,5 @@ function logHelloEveryTwoMinutes() {
 }
 
 logHelloEveryTwoMinutes();
+
+exports.logHelloEveryTwoMinutes = logHelloEveryTwoMinutes;
