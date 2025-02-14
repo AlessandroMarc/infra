@@ -4,6 +4,4 @@ function logHelloEveryTwoMinutes() {
 	}, 2 * 1000);
 }
 
-logHelloEveryTwoMinutes();
-
 exports.logHelloEveryTwoMinutes = logHelloEveryTwoMinutes;
